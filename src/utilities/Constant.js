@@ -37,3 +37,10 @@ export const categories = [
 ]
 
 // export const demothumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course' time- 26min 42 sec
+export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course'
+export const demoVideoUrl = 'search yourself';
+export const demoChannelUrl = 'search yourself';
+export const demoVideoDetail = 'There is no details';
+export const demoChannelDetail = 'There is no details';
+export const demoVideoTitle = 'There is no Title';
+export const demoChannelTitle = 'There is no Title';
