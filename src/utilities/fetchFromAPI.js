@@ -5,6 +5,7 @@ import axios from "axios";
 const BASE_URL = "https://youtube-v31.p.rapidapi.com";
 console.log(process.env.REACT_APP_RAPID_API_KEY)
 
+
 const options = {
   //   method: 'GET',
 //   url: BASE_URL,
@@ -15,7 +16,7 @@ const options = {
     maxResults: "50",
   },
   headers: {
-    "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
+    "X-RapidAPI-Key": '9aad11ced0mshf373bf2a1789802p173463jsn26514fc88fd2',
     "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
   },
 };
