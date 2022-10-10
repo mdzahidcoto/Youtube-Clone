@@ -6,7 +6,7 @@ import { CheckCircle } from "@mui/icons-material";
 
 import demoProfilePicture from "../utilities/images/logo.svg";
 
-const ChannelCard = ({ channelDetails }) => (
+const ChannelCard = ({ channelDetails, marginTop }) => (
   <Box
     sx={{
       boxShadow: "none",
@@ -15,7 +15,8 @@ const ChannelCard = ({ channelDetails }) => (
       justifyContent: "center",
       alignItems: "center",
       width: { xs: "356px", md: "280px" },
-      height: 'auto'
+      height: 'auto',
+      marginTop,
     }}
   >
     <Link to={`/channel/${channelDetails?.id?.channelId}`}>
